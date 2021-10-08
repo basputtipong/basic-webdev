@@ -1,0 +1,51 @@
+[{
+    "name": "IPhone 13",
+    "brand": "apple",
+    "description": "Pink Color",
+    "price": "999"
+
+},
+{
+    "name": "IPhone 13",
+    "brand": "apple",
+    "description": "Blue Color",
+    "price": "899"
+},
+{
+    "name": "IPhone 12",
+    "brand": "apple",
+    "description": "Gold Color",
+    "price": "799"
+},
+{
+    "name": "IPhone 12",
+    "brand": "apple",
+    "description": "Blue Color",
+    "price": "799"
+},
+{
+    "name": "IPhone 11",
+    "brand": "apple",
+    "description": "Green Color",
+    "price": "599"
+},
+{
+    "name": "IPhone 11",
+    "brand": "apple",
+    "description": "Gold Color",
+    "price": "599"
+},
+{
+    "name": "IPad air 4",
+    "brand": "apple",
+    "description": "Black Color",
+    "price": "699"
+},
+{
+    "name": "IPad pro 2021",
+    "brand": "apple",
+    "description": "Silver Color",
+    "price": "1999"
+}
+]
+

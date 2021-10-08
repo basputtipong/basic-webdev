@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoppeew</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="main-nav">
+        <li><h2>Shopeew</h2></li>
+        <div class="cart-el">
+          <li>
+            <button class="cart-btn" id="cart-btn">
+              <img class="cart-icon" src="./assets/image/empty-cart.png" />
+            </button>
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+      </div>
+    </div>
+    <div class="greet-text">
+      <h2>Welcome to Shopeew</h2>
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./assets/image/ip-13.jpg" style="width: 100%" />
+        <div class="text" style="color: black; text-shadow: 1px 1px 3px black">
+          IPhone 13
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./assets/image/ip-12.jpg" style="width: 100%" />
+        <div class="text">IPhone 12</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./assets/image/ip-11.jpg" style="width: 100%" />
+        <div class="text">IPhone 11</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div class="greet-text">
+      <h2>Products</h2>
+    </div>
+    <div class="product-con"></div>
+    <footer><h5>Made by Puttipong Thammachart</h5></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
