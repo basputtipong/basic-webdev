@@ -61,6 +61,7 @@ function displayProduct(data) {
         description: des.textContent,
         price: price.textContent,
       });
+      alert(`${title.textContent} Successfully Added!`);
     });
   }
 }
